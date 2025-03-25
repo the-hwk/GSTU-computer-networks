@@ -50,6 +50,6 @@ route -add <subnet_address> -netmask <mask> -gw <gateway_address> -dev <interfac
 
 В силу особенностей Net Simulator три роутера можно соединить с использованием хаба (см. рисунок).
 
-()[https://github.com/the-hwk/GSTU-computer-networks/blob/main/L3/3-routes-with-hub.PNG]
+![3-routes](https://github.com/the-hwk/GSTU-computer-networks/blob/main/L3/3-routes-with-hub.PNG)
 
 По настройке все точно также: для роутеров выделяем отдельную подсеть, не забываем добавить маршруты.
