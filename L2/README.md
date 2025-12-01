@@ -82,7 +82,7 @@ route -add <subnet_address> -netmask <mask> -gw <gateway_address> -dev <interfac
 
 Запустите Net Simulator и создайте новый проект. Постройте следующую схему компьютерной сети:
 <p align="center">
-  <img src="./img/network-scheme.png" alt="network-scheme" width="70%">
+  <img src="../img/network-scheme.png" alt="network-scheme" width="70%">
 </p>
 Для каждого компьютера и маршрутизатора настройте сетевые интерфейсы с использованием команды `ifconfig` (маска подсети для всех одинаковая: `255.255.255.0`):
 - компьютер N-1-1:
